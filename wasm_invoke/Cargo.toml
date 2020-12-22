@@ -1,0 +1,12 @@
+[package]
+name = "wasm_invoke"
+version = "0.1.0"
+authors = ["徐志强 <652732310@qq.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"] #Compile as a dynamic link library
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
